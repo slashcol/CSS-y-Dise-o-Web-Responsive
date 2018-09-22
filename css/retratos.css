@@ -1,0 +1,235 @@
+body{
+  margin: 40px;
+  background: #02010a;
+    font-family: Dancing Script;
+}
+header {
+  background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+  color: white;
+  text-shadow: 1px 2px 3px #02010a;
+  border-bottom: 10px;
+}
+
+.wrapper {
+	width:90%;
+	max-width:1000px;
+	margin-top: 12px;
+	overflow:hidden;
+}
+
+header nav a {
+  float:right;
+	color:#fff;
+	padding:1px 20px;
+	line-height:normal;
+	font-size:20px;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	 transition:all 500ms ease;
+}
+
+header nav a:hover {
+	background:#f56f3a;
+
+}
+
+header-1 {
+
+  color: white;
+  text-shadow: 1px 2px 3px #02010a;
+
+}
+
+  a:link, a:visited{
+    text-decoration: none;
+    }
+
+ img{
+   margin-top: 10px;
+   width: 70%;
+   margin-left: 15%;
+   box-shadow: 1px 2px 3px #02010a;
+  }
+
+
+
+  #secc{
+    width: 100%;
+    background-color: #82c3a6;
+  }
+  #sec-1{
+    float: left;
+    width: 33.3%;
+    background-color: #d5c75f;
+    border-top: solid 10px ;
+    flex: auto;
+  }
+
+  #sec-1 img{
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+  }
+  #sec-2 img{
+    -webkit-filter: sepia(90%); /* Safari 6.0 - 9.0 */
+    filter: sepia(90%);
+  }
+  #sec-3 img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+  #sec-4 img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+  #sec-5 img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+  #sec-6 img{
+    -webkit-filter: sepia(90%); /* Safari 6.0 - 9.0 */
+    filter: sepia(90%);
+  }
+
+
+
+
+
+  #sec-2{
+    float: right;
+    width: 33.3%;
+    background-color: #d5c75f;
+    border-top: solid 10px ;
+    flex: auto;
+  }
+  #sec-3{
+    float: left;
+    width: 33.3%;
+    background-color: #d5c75f;
+    border-top: solid 10px ;
+    flex: auto;
+  }
+  #sec-4{
+    float: right;
+    width: 33.3%;
+    background-color: #d5c75f;
+    border-top: solid 10px ;
+    flex: auto;
+  }
+  #sec-5{
+    float: left;
+    width: 33.3%;
+    background-color: #d5c75f;
+    border-top: solid 10px ;
+    flex: auto;
+  }
+  #sec-6{
+    float: right;
+    width: 33.3%;
+    background-color: #d5c75f;
+    border-top: solid 10px ;
+    flex: auto;
+  }
+  footer{
+
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #C6d5c5;
+    border-radius: 0px 0px 10px 10px;
+
+
+  }
+
+  .f-1{
+    margin-left: 40;
+    background-color: #C6d5c5;
+  	width: 25%;
+  }
+  .f-2{
+    background-color: #C6d5c5;
+  	width: 25%;
+  }
+  .f-3{
+    background-color: #C6d5c5;
+  	width: 25%;
+  }
+  .f-4{
+    background-color: #C6d5c5;
+  	width: 25%;
+  }
+
+  @media(max-width:420px){
+    body{
+      margin: 0px;
+      padding: : 0px;
+    }
+      h1{
+        text-align: center;
+            }
+            header nav a {
+              float: center;
+              font-size: 18px;
+            }
+
+            #sec-1 {
+              float: center;
+          display: block;
+            padding: 0%;
+            margin-top: 0px;
+
+
+            }
+            #sec-2 {
+                float: center;
+            display: block;
+              padding: 0%;
+
+            }
+            #sec-3 {
+              float: center;
+          display: block;
+            padding: 0%;
+
+
+            }
+            #sec-4 {
+                float: center;
+            display: block;
+              padding: 0%;
+
+            }
+            #sec-5 {
+              float: center;
+          display: block;
+            padding: 0%;
+
+
+            }
+            #sec-6 {
+                float: center;
+            display: block;
+              padding: 0%;
+
+            }
+
+  #sec-1,   #sec-2,   #sec-3,   #sec-4,   #sec-5,   #sec-6{
+    width: 100%;
+    display: center;
+  }
+
+
+  header {
+    animation-duration: 2s;
+  animation-name: slidein;
+  }
+
+
+    @-webkit-keyframes slidein {
+    0% {margin-top: 150%}
+    60% {margin-top:-5%}
+    100% {margin-top: 0%}
+    }
+  }
