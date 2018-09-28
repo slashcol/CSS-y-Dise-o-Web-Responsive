@@ -1,38 +1,37 @@
 body{
-  margin: 40px;
+  margin: 0px;
+  width: 900px;
+  margin: 0 auto;
+  padding: 0 auto;
   background: #02010a;
-    font-family: Dancing Script;
+  font-family: Dancing Script;
+
 }
 header {
   background-color: #5b7989;
+  width: 900px;
   border-radius: 10px 10px 0px 0px;
   color: white;
   text-shadow: 1px 2px 3px #02010a;
-  border-bottom: 10px;
+
+
 }
 
-.container {
-	margin: 0;
-	padding: 0;
-	width: 100%;
-}
+
 
 .container div {
-	box-sizing: border-box;
-	min-width: 150px;
-	padding: 20px;
-}
-.container {
+	width: 900px;
 	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-flow: row wrap;
-	flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+
 }
+
 
 .wrapper {
 	width:90%;
 	max-width:1000px;
-	margin-top: 12px;
+	margin-top: 1px;
+  margin-bottom: 0px;
 	overflow:hidden;
 }
 
@@ -42,12 +41,14 @@ width: 100%;
 header nav a {
   float:right;
 	color:#fff;
-	padding:1px 20px;
+	padding: 10px;
 	line-height:normal;
 	font-size:20px;
-	-webkit-transition:all 500ms ease;
+
+  -webkit-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
 	 transition:all 500ms ease;
+
 }
 
 header nav a:hover {
@@ -71,6 +72,16 @@ header-1 {
    width: 70%;
    margin-left: 15%;
    box-shadow: 1px 2px 3px #02010a;
+   margin-bottom: 10px;
+
+  }
+.d-img-1{
+    background-color:  #82c3a6;
+    margin-top: 0 auto;
+
+
+
+
 
   }
 
@@ -78,6 +89,7 @@ header-1 {
 
   #sec-2 img{
     transition: rotate(10deg);
+
 
   }
 
@@ -100,10 +112,12 @@ header-1 {
 
   }
   #sec-1{
-    float: center;
+    margin-top:  0px;
     width: 100%;
     background-color:  #82c3a6;
-    border-top: solid 10px ;
+
+
+
 
   }
 
@@ -111,18 +125,18 @@ header-1 {
     float: left;
     width: 50%;
     background-color: #d5c75f;
-    border-top: solid 10px ;
+
     flex: auto;
   }
   #sec-3{
     float: right;
     width: 50%;
     background-color: #d5c75f;
-    border-top: solid 10px ;
+
     flex: auto;
   }
   footer{
-
+width: 880px;
     display: flex;
   justify-content: space-around;
   align-items: center;
@@ -151,11 +165,41 @@ header-1 {
     background-color: #C6d5c5;
   	width: 25%;
   }
+
+
+
 @media(max-width:420px){
   body{
-    margin: 5px;
-    padding: : 0px;
+    margin: 0px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+    background: #02010a;
+    font-family: Dancing Script;
+
   }
+  .container {
+  	margin: 0;
+  	padding: 0;
+  	width: 100%;
+  }
+
+  .container div {
+  	width: 100%;
+  	display: -webkit-flex;
+    	-webkit-flex-flow: row wrap;
+  }
+
+  header {
+    background-color: #5b7989;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    text-shadow: 1px 2px 3px #02010a;
+    border-bottom: 10px;
+  }
+
+
     h1{
       text-align: center;
           }
@@ -163,23 +207,41 @@ header-1 {
             float: center;
             font-size: 18px;
           }
+          #sec-1 {
+            float: center;
+        display: block;
+          padding: 0%;
 
+
+          }
           #sec-2 {
             float: center;
         display: block;
-          padding: 3%;
+          padding: 0%;
 
 
           }
           #sec-3 {
               float: center;
           display: block;
-            padding: 3%;
+            padding: 0%;
 
           }
           #sec-1,   #sec-2,   #sec-3{
             width: 100%;
             display: center;
+          }
+          footer{
+        width:100%;
+            display: flex;
+          justify-content: space-around;
+          align-items: center;
+            padding: 10px;
+            margin-bottom: 20px;
+            background-color: #C6d5c5;
+            border-radius: 0px 0px 10px 10px;
+
+
           }
 
 header {
@@ -194,5 +256,193 @@ animation-name: slidein;
   100% {margin-top: 0%}
   }
 
-f
+
+}
+
+
+
+
+
+
+@media(min-width:900px){
+  body{
+    margin: 0px;
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 auto;
+    background: #02010a;
+    font-family: Dancing Script;
+
+  }
+  header {
+    background-color: #5b7989;
+    width: 900px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    text-shadow: 1px 2px 3px #02010a;
+
+
+  }
+
+
+
+  .container div {
+  	width: 900px;
+  	display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+
+  }
+
+
+  .wrapper {
+  	width:90%;
+  	max-width:1000px;
+  	margin-top: 1px;
+    margin-bottom: 0px;
+  	overflow:hidden;
+  }
+
+  .sec-1, .sec-2, .sec-3 {
+  width: 100%;
+  }
+  header nav a {
+    float:right;
+  	color:#fff;
+  	padding: 10px;
+  	line-height:normal;
+  	font-size:20px;
+
+    -webkit-transition:all 500ms ease;
+  	-o-transition:all 500ms ease;
+  	 transition:all 500ms ease;
+
+  }
+
+  header nav a:hover {
+  	background:#f56f3a;
+
+  }
+
+  header-1 {
+
+    color: white;
+    text-shadow: 1px 2px 3px #02010a;
+
+  }
+
+    a:link, a:visited{
+      text-decoration: none;
+      }
+
+   img{
+     margin-top: 10px;
+     width: 70%;
+     margin-left: 15%;
+     box-shadow: 1px 2px 3px #02010a;
+     margin-bottom: 10px;
+
+    }
+  .d-img-1{
+      background-color:  #82c3a6;
+      margin-top: 0 auto;
+
+
+
+
+
+    }
+
+
+
+    #sec-2 img{
+      transition: rotate(10deg);
+
+
+    }
+
+    #sec-2 img:hover{
+      transition: rotate(10deg);
+        box-shadow:  1px 2px 3px #82c3a6;
+        transform: rotate(10deg);
+
+    }
+
+
+    #sec-3 img{
+      transition: rotate(10deg);
+
+    }
+
+    #sec-3 img:hover{
+      transform: translate(20px, -5px);
+
+
+    }
+    #sec-1{
+      margin-top:  0px;
+      width: 100%;
+      background-color:  #82c3a6;
+
+
+
+
+    }
+
+    #sec-2{
+      float: left;
+      width: 50%;
+      background-color: #d5c75f;
+
+      flex: auto;
+    }
+    #sec-3{
+      float: right;
+      width: 50%;
+      background-color: #d5c75f;
+
+      flex: auto;
+    }
+    footer{
+  width: 880px;
+      display: flex;
+    justify-content: space-around;
+    align-items: center;
+      padding: 10px;
+      margin-bottom: 20px;
+      background-color: #C6d5c5;
+      border-radius: 0px 0px 10px 10px;
+
+
+    }
+
+    .f-1{
+      margin-left: 40;
+      background-color: #C6d5c5;
+    	width: 25%;
+    }
+    .f-2{
+      background-color: #C6d5c5;
+    	width: 25%;
+    }
+    .f-3{
+      background-color: #C6d5c5;
+    	width: 25%;
+    }
+    .f-4{
+      background-color: #C6d5c5;
+    	width: 25%;
+    }
+header {
+  animation-duration: 2s;
+animation-name: slidein;
+}
+
+
+  @-webkit-keyframes slidein {
+  0% {margin-top: 150%}
+  60% {margin-top:-5%}
+  100% {margin-top: 0%}
+  }
+
+
 }
