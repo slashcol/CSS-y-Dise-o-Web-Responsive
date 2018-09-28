@@ -232,17 +232,47 @@ width: 880px;
             display: center;
           }
           footer{
-        width:100%;
-            display: flex;
+        width: 100%;
+            display: block;
           justify-content: space-around;
           align-items: center;
             padding: 10px;
+            text-align: center;
+
             margin-bottom: 20px;
             background-color: #C6d5c5;
             border-radius: 0px 0px 10px 10px;
 
 
           }
+
+
+            .f-1{
+              float: center;
+          display: block;
+            padding: 0%;
+
+            }
+            .f-2{
+              float: center;
+          display: block;
+            padding: 0%;
+            }
+            .f-3{
+              float: center;
+          display: block;
+            padding: 0%;
+            }
+            .f-4{
+              float: center;
+          display: block;
+            padding: 0%;
+            }
+            .f-1, .f-2, .f-3, .f-4{
+              width: 100%;
+          padding-top: 10px;
+              display: center;
+            }
 
 header {
   animation-duration: 2s;
